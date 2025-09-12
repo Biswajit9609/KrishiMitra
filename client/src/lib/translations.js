@@ -438,6 +438,152 @@ export const translations = {
       "যেখানে সম্ভব প্রতিরোধী জাত ব্যবহার করুন",
       "সমন্বিত কীটপতঙ্গ ব্যবস্থাপনা অনুসরণ করুন"
     ]
+  },
+
+  pa: {
+    // Navigation
+    dashboard: "ਡੈਸ਼ਬੋਰਡ",
+    soilAdvisory: "ਮਿੱਟੀ ਸਲਾਹ",
+    weather: "ਮੌਸਮ",
+    pestDetection: "ਕੀੜੇ ਪਛਾਣ",
+    marketPrices: "ਮਾਰਕੀਟ ਭਾਅ",
+    profile: "ਪ੍ਰੋਫਾਈਲ",
+    settings: "ਸੈਟਿੰਗਜ਼",
+    help: "ਮਦਦ",
+    logout: "ਲਾਗਆਉਟ",
+
+    // Dashboard
+    welcomeBack: "ਵਾਪਸ ਜੀ ਆਇਆਂ ਨੂੰ! ਇੱਥੇ ਤੁਹਾਡੀ ਖੇਤੀ ਦਾ ਸਿੰਘਾਵਲੋਕਨ ਹੈ",
+    weatherToday: "ਅੱਜ ਦਾ ਮੌਸਮ",
+    soilHealth: "ਮਿੱਟੀ ਦੀ ਸਿਹਤ",
+    quickActions: "ਤੇਜ਼ ਕਾਰਵਾਈਆਂ",
+    frequentlyUsed: "ਅਕਸਰ ਵਰਤੀਆਂ ਜਾਣ ਵਾਲੀਆਂ ਸੁਵਿਧਾਵਾਂ",
+    dailyTips: "ਰੋਜ਼ਾਨਾ ਖੇਤੀ ਸੁਝਾਅ",
+    expertAdvice: "ਬਿਹਤਰ ਖੇਤੀ ਲਈ ਮਾਹਰ ਸਲਾਹ",
+    todaysTip: "ਅੱਜ ਦਾ ਸੁਝਾਅ",
+
+    // Common
+    viewDetails: "ਵੇਰਵੇ ਵੇਖੋ",
+    getAdvisory: "ਸਲਾਹ ਲਓ",
+    uploadImage: "ਤਸਵੀਰ ਅਪਲੋਡ ਕਰੋ",
+    viewAllPrices: "ਸਾਰੇ ਭਾਅ ਵੇਖੋ",
+    soilTest: "ਮਿੱਟੀ ਟੈਸਟ",
+    pestCheck: "ਕੀੜੇ ਜਾਂਚ",
+    prices: "ਭਾਅ",
+    loading: "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+    aiPoweredIdentification: "AI-ਸੰਚਾਲਿਤ ਕੀੜੇ ਪਛਾਣ",
+
+    // Weather
+    humidity: "ਨਮੀ",
+    chanceOfRain: "ਬਰਸਾਤ ਦੀ ਸੰਭਾਵਨਾ",
+    lastAnalysis: "ਆਖਰੀ ਵਿਸ਼ਲੇਸ਼ਣ",
+    fertilizerDue: "ਖਾਦ ਦੇਣ ਦਾ ਸਮਾਂ",
+    days: "ਦਿਨ",
+    daysAgo: "ਦਿਨ ਪਹਿਲਾਂ",
+
+    // Market
+    wheat: "ਕਣਕ",
+    rice: "ਚਾਵਲ",
+    quintal: "ਕੁਇੰਟਲ",
+    marketPricesPage: "ਮਾਰਕੀਟ ਭਾਅ",
+    stayUpdatedPrices: "ਬਿਹਤਰ ਵਿਕਰੀ ਫੈਸਲਿਆਂ ਲਈ ਰੀਅਲ-ਟਾਈਮ ਮਾਰਕੀਟ ਭਾਵਾਂ ਨਾਲ ਅਪਡੇਟ ਰਹੋ",
+    searchCrops: "ਫਸਲਾਂ ਖੋਜੋ...",
+    allCrops: "ਸਾਰੀਆਂ ਫਸਲਾਂ",
+    perQuintal: "ਪ੍ਰਤੀ ਕੁਇੰਟਲ",
+    fromYesterday: "ਕੱਲ ਤੋਂ",
+    marketAdvisory: "ਮਾਰਕੀਟ ਸਲਾਹ",
+    bestSellingRecommendations: "ਮੌਜੂਦਾ ਰੁਝਾਨਾਂ ਦੇ ਆਧਾਰ 'ਤੇ ਸਭ ਤੋਂ ਵਧੀਆ ਵਿਕਰੀ ਸਿਫਾਰਸ਼ਾਂ",
+    bestTimeToSell: "ਵੇਚਣ ਦਾ ਸਭ ਤੋਂ ਵਧੀਆ ਸਮਾਂ",
+    wheatPricesTrending: "ਕਣਕ ਦੇ ਭਾਅ ਵਧ ਰਹੇ ਹਨ। ਵੱਧ ਤੋਂ ਵੱਧ ਮੁਨਾਫੇ ਲਈ ਅਗਲੇ 3-5 ਦਿਨਾਂ ਵਿੱਚ ਵੇਚਣ 'ਤੇ ਵਿਚਾਰ ਕਰੋ।",
+    expectedPriceRange: "ਸੰਭਾਵਿਤ ਕੀਮਤ ਸੀਮਾ: ₹2,150 - ₹2,200 ਪ੍ਰਤੀ ਕੁਇੰਟਲ",
+    marketInsights: "ਮਾਰਕੀਟ ਸੂਝ",
+    riceDemandStable: "ਚਾਵਲ ਦੀ ਮੰਗ ਮੌਸਮੀ ਤਬਦੀਲੀਆਂ ਨਾਲ ਸਥਿਰ ਹੈ। ਅਗਲੇ ਹਫ਼ਤੇ ਭਾਵਾਂ 'ਤੇ ਨਜ਼ਰ ਰੱਖੋ।",
+    recommendedAction: "ਸਿਫਾਰਸ਼ੀ ਕਾਰਵਾਈ: ਬਿਹਤਰ ਭਾਵਾਂ ਲਈ ਰੁਕੋ",
+    priceTrends: "ਕੀਮਤ ਰੁਝਾਨ",
+    sevenDayPriceMovement: "ਕਣਕ ਲਈ 7-ਦਿਨ ਦੀ ਕੀਮਤ ਗਤੀ (₹/ਕੁਇੰਟਲ)",
+    
+    // Profile
+    profileSettings: "ਪ੍ਰੋਫਾਈਲ ਸੈਟਿੰਗਜ਼",
+    manageAccount: "ਆਪਣਾ ਖਾਤਾ ਅਤੇ ਤਰਜੀਹਾਂ ਪ੍ਰਬੰਧਿਤ ਕਰੋ",
+    farmer: "ਕਿਸਾਨ",
+    personalInformation: "ਨਿੱਜੀ ਜਾਣਕਾਰੀ",
+    updateProfileDetails: "ਆਪਣੇ ਪ੍ਰੋਫਾਈਲ ਵੇਰਵੇ ਅਪਡੇਟ ਕਰੋ",
+    save: "ਸੇਵ ਕਰੋ",
+    edit: "ਸੰਪਾਦਿਤ ਕਰੋ",
+    fullName: "ਪੂਰਾ ਨਾਮ",
+    phoneNumber: "ਫੋਨ ਨੰਬਰ",
+    emailAddress: "ਈਮੇਲ ਪਤਾ",
+    location: "ਸਥਾਨ",
+    villageDistrictState: "ਪਿੰਡ, ਜ਼ਿਲ੍ਹਾ, ਰਾਜ",
+    preferredLanguage: "ਤਰਜੀਹੀ ਭਾਸ਼ਾ",
+    cropsOfInterest: "ਦਿਲਚਸਪੀ ਦੀਆਂ ਫਸਲਾਂ",
+    appPreferences: "ਐਪ ਤਰਜੀਹਾਂ",
+    customizeExperience: "ਆਪਣਾ ਐਪ ਅਨੁਭਵ ਅਨੁਕੂਲਿਤ ਕਰੋ",
+    weatherNotifications: "ਮੌਸਮ ਸੂਚਨਾਵਾਂ",
+    receiveWeatherAlerts: "ਮੌਸਮ ਚੇਤਾਵਨੀਆਂ ਅਤੇ ਅਲਰਟ ਪ੍ਰਾਪਤ ਕਰੋ",
+    marketPriceAlerts: "ਮਾਰਕੀਟ ਕੀਮਤ ਅਲਰਟ",
+    getPriceNotifications: "ਕੀਮਤ ਤਬਦੀਲੀਆਂ ਲਈ ਸੂਚਨਾਵਾਂ ਪ੍ਰਾਪਤ ਕਰੋ",
+    voiceAssistant: "ਆਵਾਜ਼ ਸਹਾਇਕ",
+    enableVoiceCommands: "ਆਵਾਜ਼ ਕਮਾਂਡ ਅਤੇ ਜਵਾਬ ਸਮਰੱਥ ਕਰੋ",
+
+    // Soil Advisory
+    soilAnalysisForm: "ਮਿੱਟੀ ਵਿਸ਼ਲੇਸ਼ਣ ਫਾਰਮ",
+    provideDetails: "ਨਿੱਜੀ ਸਿਫਾਰਸ਼ਾਂ ਲਈ ਆਪਣੀ ਮਿੱਟੀ ਅਤੇ ਫਸਲ ਦਾ ਵੇਰਵਾ ਦਿਓ",
+    soilType: "ਮਿੱਟੀ ਦੀ ਕਿਸਮ",
+    cropType: "ਫਸਲ ਦੀ ਕਿਸਮ",
+    enterLocation: "ਆਪਣਾ ਸਥਾਨ ਦਰਜ ਕਰੋ",
+    getSoilAdvisory: "ਮਿੱਟੀ ਸਲਾਹ ਪ੍ਰਾਪਤ ਕਰੋ",
+    analyzing: "ਵਿਸ਼ਲੇਸ਼ਣ ਕਰ ਰਿਹਾ ਹੈ...",
+
+    // Weather Insights
+    weatherInsights: "ਮੌਸਮ ਜਾਣਕਾਰੀ",
+    stayInformed: "ਬਿਹਤਰ ਖੇਤੀ ਫੈਸਲਿਆਂ ਲਈ ਸਹੀ ਮੌਸਮ ਪੂਰਵਾਨੁਮਾਨ ਨਾਲ ਜਾਣਕਾਰ ਰਹੋ",
+    currentWeather: "ਮੌਜੂਦਾ ਮੌਸਮ",
+    realTimeConditions: "ਤੁਹਾਡੇ ਖੇਤਰ ਵਿੱਚ ਰੀਅਲ-ਟਾਈਮ ਸਥਿਤੀਆਂ",
+    temperature: "ਤਾਪਮਾਨ",
+    rainChance: "ਬਰਸਾਤ ਦੀ ਸੰਭਾਵਨਾ",
+    sevenDayForecast: "7-ਦਿਨ ਦਾ ਪੂਰਵਾਨੁਮਾਨ",
+    planActivities: "ਆਪਣੀਆਂ ਖੇਤੀ ਗਤੀਵਿਧੀਆਂ ਦੀ ਯੋਜਨਾ ਬਣਾਓ",
+    weatherAlerts: "ਮੌਸਮ ਚੇਤਾਵਨੀਆਂ",
+    importantWarnings: "ਤੁਹਾਡੇ ਖੇਤਰ ਲਈ ਮਹੱਤਵਪੂਰਨ ਮੌਸਮ ਚੇਤਾਵਨੀਆਂ",
+
+    // Pest Detection
+    pestAndDiseaseDetection: "ਕੀੜੇ ਅਤੇ ਬਿਮਾਰੀ ਪਛਾਣ",
+    uploadCropImages: "AI ਆਧਾਰਿਤ ਵਿਸ਼ਲੇਸ਼ਣ ਲਈ ਫਸਲ ਦੀਆਂ ਤਸਵੀਰਾਂ ਅਪਲੋਡ ਕਰੋ",
+    uploadCropImage: "ਫਸਲ ਦੀ ਤਸਵੀਰ ਅਪਲੋਡ ਕਰੋ",
+    takeClearPhoto: "ਪ੍ਰਭਾਵਿਤ ਖੇਤਰ ਦੀ ਸਪਸ਼ਟ ਤਸਵੀਰ ਲਓ",
+    analyzeImage: "ਤਸਵੀਰ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੋ",
+    detectionResults: "ਪਛਾਣ ਨਤੀਜੇ",
+    aiAnalysisCompleted: "AI ਵਿਸ਼ਲੇਸ਼ਣ ਪੂਰਾ ਹੋਇਆ",
+    confidence: "ਭਰੋਸਾ ਪੱਧਰ",
+    detectedIssue: "ਪਛਾਣੀ ਗਈ ਸਮੱਸਿਆ",
+    severityLevel: "ਗੰਭੀਰਤਾ ਪੱਧਰ",
+    recommendedTreatment: "ਸਿਫਾਰਸ਼ੀ ਇਲਾਜ",
+    preventionTips: "ਰੋਕਥਾਮ ਦੇ ਸੁਝਾਅ",
+    uploadToGetStarted: "ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤਸਵੀਰ ਅਪਲੋਡ ਕਰੋ",
+    aiWillAnalyze: "ਸਾਡਾ AI ਤੁਹਾਡੀ ਫਸਲ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰੇਗਾ",
+    photographyTips: "ਫੋਟੋਗ੍ਰਾਫੀ ਸੁਝਾਅ",
+    getBetterResults: "ਸਪਸ਼ਟ ਤਸਵੀਰਾਂ ਨਾਲ ਬਿਹਤਰ ਨਤੀਜੇ ਪ੍ਰਾਪਤ ਕਰੋ",
+    do: "✓ ਕਰੋ",
+    dont: "✗ ਨਾ ਕਰੋ",
+    doTips: [
+      "ਚੰਗੀ ਰੋਸ਼ਨੀ ਵਿੱਚ ਫੋਟੋ ਲਓ",
+      "ਪ੍ਰਭਾਵਿਤ ਖੇਤਰਾਂ 'ਤੇ ਫੋਕਸ ਕਰੋ",
+      "ਕਈ ਕੋਣਾਂ ਤੋਂ ਤਸਵੀਰ ਲਓ",
+      "ਤਸਵੀਰ ਸਾਫ਼ ਅਤੇ ਤਿੱਖੀ ਰੱਖੋ"
+    ],
+    dontTips: [
+      "ਧੁੰਦਲੀਆਂ ਜਾਂ ਹਨੇਰੀਆਂ ਤਸਵੀਰਾਂ ਨਾ ਵਰਤੋ",
+      "ਬਹੁਤ ਜ਼ਿਆਦਾ ਬੈਕਗ੍ਰਾਉਂਡ ਸ਼ਾਮਲ ਨਾ ਕਰੋ",
+      "ਬਹੁਤ ਦੂਰੋਂ ਤਸਵੀਰ ਨਾ ਲਓ",
+      "ਬਹੁਤ ਜ਼ਿਆਦਾ ਫਿਲਟਰ ਵਾਲੀਆਂ ਤਸਵੀਰਾਂ ਨਾ ਵਰਤੋ"
+    ],
+    preventionList: [
+      "ਫਸਲ ਦੀ ਸਿਹਤ ਦੀ ਨਿਯਮਿਤ ਨਿਗਰਾਨੀ ਕਰੋ",
+      "ਖੇਤ ਦੀ ਸਹੀ ਸਫ਼ਾਈ ਬਣਾਈ ਰੱਖੋ",
+      "ਜਿੱਥੇ ਉਪਲਬਧ ਹੋਵੇ ਪ੍ਰਤੀਰੋਧੀ ਕਿਸਮਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+      "ਏਕੀਕ੍ਰਿਤ ਕੀੜੇ ਪ੍ਰਬੰਧਨ ਦਾ ਪਾਲਣ ਕਰੋ"
+    ]
   }
 }
 
@@ -445,7 +591,8 @@ export const translations = {
 const numberSystems = {
   en: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
   hi: ['०', '१', '२', '३', '४', '५', '६', '७', '८', '९'],
-  bn: ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯']
+  bn: ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'],
+  pa: ['੦', '੧', '੨', '੩', '੪', '੫', '੬', '੭', '੮', '੯']
 }
 
 export const convertNumbers = (text, language) => {

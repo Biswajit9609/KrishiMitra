@@ -23,8 +23,7 @@ const Profile = ({ user, language = 'en' }) => {
     { code: 'en', name: 'English' },
     { code: 'hi', name: 'हिंदी' },
     { code: 'bn', name: 'বাংলা' },
-    { code: 'te', name: 'తెలుగు' },
-    { code: 'ta', name: 'தமிழ்' }
+    { code: 'pa', name: 'ਪੰਜਾਬੀ' }
   ]
 
   const cropOptions = [
