@@ -42,7 +42,7 @@ const Profile = ({ user, language = 'en' }) => {
   }
 
   return (
-    <div className="min-h-screen pt-16 px-4">
+    <div className="min-h-screen pt-20 pb-32 px-4">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
