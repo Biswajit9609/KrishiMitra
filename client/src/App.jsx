@@ -33,20 +33,18 @@ function App() {
         <div className="flex">
           <Sidebar isOpen={sidebarOpen} setIsOpen={setSidebarOpen} language={language} />
           
-          <main className="flex-1 lg:pl-72">
-            <Routes>
-              <Route path="/" element={<LandingPage />} />
-              <Route path="/login" element={<LoginPage setIsAuthenticated={setIsAuthenticated} setUser={setUser} />} />
-              <Route path="/dashboard" element={<Dashboard language={language} />} />
-              <Route path="/soil-advisory" element={<SoilAdvisory language={language} />} />
-              <Route path="/weather" element={<WeatherInsights language={language} />} />
-              <Route path="/pest-detection" element={<PestDetection language={language} />} />
-              <Route path="/market-prices" element={<MarketPrices language={language} />} />
-              <Route path="/profile" element={<Profile user={user} language={language} />} />
-              <Route path="/settings" element={<Settings language={language} />} />
-              <Route path="/help" element={<Help language={language} />} />
-            </Routes>
-          </main>
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/login" element={<LoginPage setIsAuthenticated={setIsAuthenticated} setUser={setUser} />} />
+            <Route path="/dashboard" element={<div className="flex-1 lg:pl-72"><Dashboard language={language} /></div>} />
+            <Route path="/soil-advisory" element={<div className="flex-1 lg:pl-72"><SoilAdvisory language={language} /></div>} />
+            <Route path="/weather" element={<div className="flex-1 lg:pl-72"><WeatherInsights language={language} /></div>} />
+            <Route path="/pest-detection" element={<div className="flex-1 lg:pl-72"><PestDetection language={language} /></div>} />
+            <Route path="/market-prices" element={<div className="flex-1 lg:pl-72"><MarketPrices language={language} /></div>} />
+            <Route path="/profile" element={<div className="flex-1 lg:pl-72"><Profile user={user} language={language} /></div>} />
+            <Route path="/settings" element={<div className="flex-1 lg:pl-72"><Settings language={language} /></div>} />
+            <Route path="/help" element={<div className="flex-1 lg:pl-72"><Help language={language} /></div>} />
+          </Routes>
         </div>
 
         {isAuthenticated && <VoiceBar />}
