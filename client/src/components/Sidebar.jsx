@@ -10,7 +10,9 @@ import {
   X,
   Home,
   Settings,
-  HelpCircle
+  HelpCircle,
+  Newspaper,
+  Video
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useTranslation } from '@/lib/translations'
@@ -26,6 +28,8 @@ const Sidebar = ({ isOpen, setIsOpen, language = 'en' }) => {
     { icon: Cloud, label: t('weather'), path: '/weather' },
     { icon: Bug, label: t('pestDetection'), path: '/pest-detection' },
     { icon: TrendingUp, label: t('marketPrices'), path: '/market-prices' },
+    { icon: Newspaper, label: t('news'), path: '/news' },
+    { icon: Video, label: t('reels'), path: '/reels' },
     { icon: User, label: t('profile'), path: '/profile' },
   ]
 

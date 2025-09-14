@@ -83,6 +83,31 @@ export const translations = {
     getPriceNotifications: "Get notifications for price changes",
     voiceAssistant: "Voice Assistant",
     enableVoiceCommands: "Enable voice commands and responses",
+    
+    // News
+    news: "News",
+    agricultureNews: "Agriculture News",
+    latestUpdates: "Stay updated with latest agriculture news and insights",
+    readMore: "Read More",
+    publishedOn: "Published on",
+    noNewsAvailable: "No news available at the moment",
+    
+    // Reels
+    reels: "Reels",
+    agricultureReels: "Agriculture Reels",
+    shortVideos: "Watch short videos on farming techniques and tips",
+    uploadVideo: "Upload Video",
+    selectVideo: "Select Video File",
+    videoTitle: "Video Title",
+    videoDescription: "Video Description",
+    uploadingVideo: "Uploading video...",
+    videoUploaded: "Video uploaded successfully!",
+    noVideosAvailable: "No videos available",
+    watchNow: "Watch Now",
+    duration: "Duration",
+    views: "views",
+    uploadYourVideo: "Upload Your Video",
+    shareKnowledge: "Share your farming knowledge with the community",
 
     // Soil Advisory
     soilAnalysisForm: "Soil Analysis Form",
@@ -230,6 +255,31 @@ export const translations = {
     getPriceNotifications: "मूल्य परिवर्तन के लिए सूचनाएं प्राप्त करें",
     voiceAssistant: "आवाज सहायक",
     enableVoiceCommands: "आवाज कमांड और प्रतिक्रियाएं सक्षम करें",
+    
+    // News
+    news: "समाचार",
+    agricultureNews: "कृषि समाचार",
+    latestUpdates: "नवीनतम कृषि समाचार और जानकारी के साथ अपडेट रहें",
+    readMore: "और पढ़ें",
+    publishedOn: "प्रकाशित",
+    noNewsAvailable: "फिलहाल कोई समाचार उपलब्ध नहीं है",
+    
+    // Reels
+    reels: "रील्स",
+    agricultureReels: "कृषि रील्स",
+    shortVideos: "खेती की तकनीकों और सुझावों पर छोटे वीडियो देखें",
+    uploadVideo: "वीडियो अपलोड करें",
+    selectVideo: "वीडियो फाइल चुनें",
+    videoTitle: "वीडियो शीर्षक",
+    videoDescription: "वीडियो विवरण",
+    uploadingVideo: "वीडियो अपलोड हो रहा है...",
+    videoUploaded: "वीडियो सफलतापूर्वक अपलोड हुआ!",
+    noVideosAvailable: "कोई वीडियो उपलब्ध नहीं",
+    watchNow: "अभी देखें",
+    duration: "अवधि",
+    views: "बार देखा गया",
+    uploadYourVideo: "अपना वीडियो अपलोड करें",
+    shareKnowledge: "समुदाय के साथ अपना खेती का ज्ञान साझा करें",
 
     // Soil Advisory
     soilAnalysisForm: "मिट्टी विश्लेषण फॉर्म",
@@ -377,6 +427,31 @@ export const translations = {
     getPriceNotifications: "দাম পরিবর্তনের জন্য বিজ্ঞপ্তি পান",
     voiceAssistant: "ভয়েস অ্যাসিস্ট্যান্ট",
     enableVoiceCommands: "ভয়েস কমান্ড এবং সাড়া সক্ষম করুন",
+    
+    // News
+    news: "খবর",
+    agricultureNews: "কৃষি খবর",
+    latestUpdates: "সর্বশেষ কৃষি খবর এবং অন্তর্দৃষ্টি দিয়ে আপডেট থাকুন",
+    readMore: "আরো পড়ুন",
+    publishedOn: "প্রকাশিত",
+    noNewsAvailable: "এই মুহূর্তে কোন খবর নেই",
+    
+    // Reels
+    reels: "রিলস",
+    agricultureReels: "কৃষি রিলস",
+    shortVideos: "চাষাবাদ কৌশল এবং টিপসের ছোট ভিডিও দেখুন",
+    uploadVideo: "ভিডিও আপলোড করুন",
+    selectVideo: "ভিডিও ফাইল নির্বাচন করুন",
+    videoTitle: "ভিডিওর শিরোনাম",
+    videoDescription: "ভিডিওর বিবরণ",
+    uploadingVideo: "ভিডিও আপলোড হচ্ছে...",
+    videoUploaded: "ভিডিও সফলভাবে আপলোড হয়েছে!",
+    noVideosAvailable: "কোন ভিডিও নেই",
+    watchNow: "এখনী দেখুন",
+    duration: "সময়কাল",
+    views: "বার দেখা হয়েছে",
+    uploadYourVideo: "আপনার ভিডিও আপলোড করুন",
+    shareKnowledge: "কমিউনিটির সাথে আপনার চাষাবাদ জ্ঞান শেয়ার করুন",
 
     // Soil Advisory
     soilAnalysisForm: "মাটি বিশ্লেষণ ফর্ম",
@@ -525,6 +600,31 @@ export const translations = {
     getPriceNotifications: "ਕੀਮਤ ਤਬਦੀਲੀਆਂ ਲਈ ਸੂਚਨਾਵਾਂ ਪ੍ਰਾਪਤ ਕਰੋ",
     voiceAssistant: "ਆਵਾਜ਼ ਸਹਾਇਕ",
     enableVoiceCommands: "ਆਵਾਜ਼ ਕਮਾਂਡ ਅਤੇ ਜਵਾਬ ਸਮਰੱਥ ਕਰੋ",
+    
+    // News
+    news: "ਖ਼ਬਰਾਂ",
+    agricultureNews: "ਖੇਤੀਬਾੜੀ ਖ਼ਬਰਾਂ",
+    latestUpdates: "ਨਵੀਨਤਮ ਖੇਤੀਬਾੜੀ ਖ਼ਬਰਾਂ ਅਤੇ ਜਾਣਕਾਰੀ ਨਾਲ ਅਪਡੇਟ ਰਹੋ",
+    readMore: "ਹੋਰ ਪੜ੍ਹੋ",
+    publishedOn: "ਪ੍ਰਕਾਸ਼ਿਤ",
+    noNewsAvailable: "ਫਿਲਹਾਲ ਕੋਈ ਖ਼ਬਰ ਉਪਲਬਧ ਨਹੀਂ",
+    
+    // Reels
+    reels: "ਰੀਲਜ਼",
+    agricultureReels: "ਖੇਤੀਬਾੜੀ ਰੀਲਜ਼",
+    shortVideos: "ਖੇਤੀ ਦੀਆਂ ਤਕਨੀਕਾਂ ਅਤੇ ਸੁਝਾਵਾਂ ਦੇ ਛੋਟੇ ਵੀਡੀਓ ਵੇਖੋ",
+    uploadVideo: "ਵੀਡੀਓ ਅਪਲੋਡ ਕਰੋ",
+    selectVideo: "ਵੀਡੀਓ ਫਾਇਲ ਚੁਣੋ",
+    videoTitle: "ਵੀਡੀਓ ਸਿਰਲੇਖ",
+    videoDescription: "ਵੀਡੀਓ ਵੇਰਵਾ",
+    uploadingVideo: "ਵੀਡੀਓ ਅਪਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+    videoUploaded: "ਵੀਡੀਓ ਸਫਲਤਾਪੂਰਵਕ ਅਪਲੋਡ ਹੋਇਆ!",
+    noVideosAvailable: "ਕੋਈ ਵੀਡੀਓ ਉਪਲਬਧ ਨਹੀਂ",
+    watchNow: "ਹੁਣ ਵੇਖੋ",
+    duration: "ਸਮਾਂ",
+    views: "ਵਾਰ ਵੇਖਿਆ ਗਿਆ",
+    uploadYourVideo: "ਆਪਣਾ ਵੀਡੀਓ ਅਪਲੋਡ ਕਰੋ",
+    shareKnowledge: "ਕਮਿਊਨਿਟੀ ਨਾਲ ਆਪਣਾ ਖੇਤੀਬਾੜੀ ਦਾ ਗਿਆਨ ਸਾਂਝਾ ਕਰੋ",
 
     // Soil Advisory
     soilAnalysisForm: "ਮਿੱਟੀ ਵਿਸ਼ਲੇਸ਼ਣ ਫਾਰਮ",

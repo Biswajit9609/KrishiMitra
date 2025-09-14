@@ -4,6 +4,7 @@ import { Leaf, Globe, User, Menu, X, Bell, LogOut, Settings, Moon, Sun } from 'l
 import { Button } from '@/components/ui/button'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
+import { AnimatedThemeToggler } from "@/components/magicui/animated-theme-toggler";
 
 const Navbar = ({ user, language, setLanguage, setSidebarOpen }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -65,9 +66,7 @@ const Navbar = ({ user, language, setLanguage, setSidebarOpen }) => {
               </SelectContent>
             </Select>
 
-            <Button variant="ghost" size="icon" onClick={() => setDarkMode(!darkMode)}>
-              {darkMode ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
-            </Button>
+            <AnimatedThemeToggler />
 
             <DropdownMenu>
               <DropdownMenuTrigger asChild>

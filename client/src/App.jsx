@@ -9,6 +9,8 @@ import SoilAdvisory from './pages/SoilAdvisory'
 import WeatherInsights from './pages/WeatherInsights'
 import PestDetection from './pages/PestDetection'
 import MarketPrices from './pages/MarketPrices'
+import News from './pages/News'
+import Reels from './pages/Reels'
 import Profile from './pages/Profile'
 import Settings from './pages/Settings'
 import Help from './pages/Help'
@@ -41,6 +43,8 @@ function App() {
             <Route path="/weather" element={<div className="flex-1 lg:pl-72"><WeatherInsights language={language} /></div>} />
             <Route path="/pest-detection" element={<div className="flex-1 lg:pl-72"><PestDetection language={language} /></div>} />
             <Route path="/market-prices" element={<div className="flex-1 lg:pl-72"><MarketPrices language={language} /></div>} />
+            <Route path="/news" element={<div className="flex-1 lg:pl-72"><News language={language} /></div>} />
+            <Route path="/reels" element={<div className="flex-1 lg:pl-72"><Reels language={language} /></div>} />
             <Route path="/profile" element={<div className="flex-1 lg:pl-72"><Profile user={user} language={language} /></div>} />
             <Route path="/settings" element={<div className="flex-1 lg:pl-72"><Settings language={language} /></div>} />
             <Route path="/help" element={<div className="flex-1 lg:pl-72"><Help language={language} /></div>} />
